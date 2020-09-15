@@ -1,0 +1,112 @@
+*{
+  margin:0%;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen',sans-serif;
+}
+#header-nav {
+  background-color: #f6b319;
+  height: 160px; 
+}
+#logo-img img {
+  margin-top: 5px;
+  margin-left: 5%;
+}
+.navbar-brand {
+  margin-left: 229px;
+  margin-top: -110px; 
+} 
+.menu-right ul
+{
+  float: right;
+  display: flex;
+  margin-right: 5% ;
+  margin-top: -7%;
+}
+ul li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+a:hover {
+  color:white;
+}
+
+.jumbotron img {
+  height: 675px;
+  margin: 5%;
+}
+.jumbotron
+{
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+#box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px ;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#menu-tile , #specials-tile, #map-tile {
+  height: 250px;
+  margin-bottom: 15px;
+  border: 2px solid #3F0C1F;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+#menu-tile {
+  background: url("../images/menu-tile.jpg") no-repeat;
+  width: 362px;
+}
+#specials-tile {
+  width: 364px;
+  background: url("../images/specials-tile.jpg") no-repeat;
+  background-position: center;
+}
+a:link {
+  text-decoration: none;
+}
+.navbar-brand span:hover, .green:hover {
+  color: rgb(12, 73, 12);
+  font-weight: bold;
+
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile span,  #specials-tile span,  #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.frow
+{
+  padding: 5%;
+  line-height: 2;
+}
+.frow span {
+  font-size: 1.3em;
+
+}
+
